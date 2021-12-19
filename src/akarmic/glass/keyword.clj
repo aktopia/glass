@@ -6,7 +6,7 @@
   [x]
   (walk/postwalk
    (fn [x]
-     (if (keyword? x)
+     (if (qualified-keyword? x)
        (keyword (name x))
        x))
    x))
