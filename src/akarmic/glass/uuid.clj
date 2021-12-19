@@ -4,6 +4,6 @@
 
 (set! *warn-on-reflection* true)
 
-(defn uuid-str
+(defn random-uuid-str
   []
   (str (UUID/randomUUID)))
