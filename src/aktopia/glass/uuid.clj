@@ -1,4 +1,4 @@
-(ns akarmic.glass.uuid
+(ns aktopia.glass.uuid
   (:import
    [java.util UUID]
    [com.devskiller.friendly_id FriendlyId]))
